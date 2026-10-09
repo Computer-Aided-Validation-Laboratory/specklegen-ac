@@ -16,7 +16,7 @@ In order, the following parameters can be adjusted:
 - show whether the graph is shown as well as the export created.
 
 A photo is automatically saved when using this function, similar to the image seen below. This photo was created using the default values within the function.
-![Example of Speckle Pattern Image] (../../../../..)
+![Example of Speckle Pattern Image](image.png)
 
 The following is the figure produced in matplotlib, using the default values. This is useful when adjusting the speckle and image size, viewing the speckle pattern layout in terms of pixels.
 ![Example of Speckle Figure](<Example of figure.png>)
