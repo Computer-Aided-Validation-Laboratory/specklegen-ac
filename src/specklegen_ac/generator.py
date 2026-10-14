@@ -22,7 +22,6 @@ def create_speckle_image(
     dot_color="black",
     output_path="speckle_pattern.tif",
     rng=None,
-    show=True,
 ):
     # Validate inputs and initialize RNG.
     if image_height <= 0 or image_width <= 0:
@@ -186,8 +185,7 @@ def create_speckle_image(
     print(f"Dot density: {dot_density:.6f} dots/pixel²")
     print(f"Area coverage: {actual_coverage:.1%}")
 
-    if show:
-        plt.show()
+    plt.show()
 
     return figure, axis, stats
 

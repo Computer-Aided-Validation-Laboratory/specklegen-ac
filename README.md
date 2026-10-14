@@ -12,8 +12,9 @@ In order, the following parameters can be adjusted:
 - speckle_size_randomness as a value from 0-1,
 - speckle_target_coverage as a value from 0-1,
 - dot_color as either "black" or "white", with the background colour changing to match,
-- output_path in naming the speckle patten saved,
-- show whether the graph is shown as well as the export created.
+- output_path in naming the speckle pattern saved.
+
+The generated graph is always shown after the pattern is exported.
 
 A photo is automatically saved when using this function, similar to the image seen below. This photo was created using the default values within the function.
 ![Example of Speckle Pattern Image](image.png)
@@ -30,4 +31,3 @@ Default parameters:
 - speckle_target_coverage=0.50
 - dot_color="black"
 - output_path="speckle_pattern.tif"
-- show=True

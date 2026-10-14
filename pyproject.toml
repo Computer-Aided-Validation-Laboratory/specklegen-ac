@@ -1,0 +1,6 @@
+[tool.hatch.build.targets.wheel]
+packages = ["src/specklegen_ac"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
